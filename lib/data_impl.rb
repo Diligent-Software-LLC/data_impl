@@ -18,13 +18,15 @@ class DataType < DataInt
   #   True in the case the argument is a Numeric, FalseClass, Symbol,
   #   TrueClass, String, Time, or NilClass object. False otherwise.
   def self.instance?(obj = nil)
-    boolean = false
+
+  boolean = false
     TYPES.each { |type|
       if (obj.is_a?(type))
         boolean = true
       end
     }
     return boolean
+
   end
 
   # self.type?(type = nil).
@@ -36,9 +38,11 @@ class DataType < DataInt
   #   True in the case the type is Numeric, FalseClass, Symbol, TrueClass,
   #   String, Time, or NilClass, or, one of their ancestors. False otherwise.
   def self.type?(type = nil)
-    types_element = self.types_element?(type)
+
+  types_element = self.types_element?(type)
     type_child    = self.type_child?(type)
     return (types_element || type_child)
+
   end
 
   TYPES = [Numeric, FalseClass, Symbol, TrueClass, String, Time,
@@ -47,4 +51,3 @@ class DataType < DataInt
   private_constant :TYPES
 
 end
-

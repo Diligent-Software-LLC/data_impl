@@ -32,13 +32,15 @@ class DataTypeTest < Minitest::Test
   # @abstract
   #   Set fixtures.
   def setup()
-    @x1_data   = 0
+
+  @x1_data   = 0
     @x2_data   = {}
     @x1_data_1 = Float
     @x2_data_1 = Hash
     @x1_data_0 = String
     @x2_data_0 = Hash
     @x1_data_2 = Integer
+
   end
 
   # self.instance?(obj = nil)
@@ -114,4 +116,3 @@ class DataTypeTest < Minitest::Test
   end
 
 end
-
