@@ -1,4 +1,4 @@
 $LOAD_PATH.unshift File.expand_path("../lib", __dir__)
-require "data_impl"
 
+require_relative '../lib/data_impl'
 require "minitest/autorun"

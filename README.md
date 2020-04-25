@@ -1,16 +1,16 @@
 # data_impl [![Gem Version](https://badge.fury.io/rb/data_impl.svg)](https://badge.fury.io/rb/data_impl) ![Gem](https://img.shields.io/gem/dt/data_impl) [![Build Status](https://travis-ci.com/Diligent-Software-LLC/data_impl.svg?branch=master)](https://travis-ci.com/Diligent-Software-LLC/data_impl)
 
-A Data class implementation. Implements the Data interface.
+A DataType class implementation. Implements the Data interface.
 
 ## Installation
 
-- Refer the [packages](https://docs.diligentsoftware.org/data-1/packages) page.
+- Refer the Implementation's 
+[Packages](https://docs.diligentsoftware.org/data-1/packages#implementation).
 
 ## Documentation
 
-- Refer the 
-[Implementation](https://docs.diligentsoftware.org/data-1/implementation) 
-homepage.
+- Refer the Implementation's  
+[Homepage](https://docs.diligentsoftware.org/data-1/implementation).
 
 ## Contributing
 
@@ -24,8 +24,10 @@ Greatly appreciated.
 
 ### Report Bugs
 
-Refer the [Bug Reporting Procedure](https://github.com/Diligent-Software-LLC/data_impl/issues/1).
+- Refer the 
+[Bug Reporting Procedure](https://github.com/Diligent-Software-LLC/data_impl/issues/1).
 
 ### Fix Bugs
 
-Refer the [Bug Fixing Procedure](https://github.com/Diligent-Software-LLC/data_impl/issues/2).
+- Refer the 
+[Bug Fixing Procedure](https://github.com/Diligent-Software-LLC/data_impl/issues/2).

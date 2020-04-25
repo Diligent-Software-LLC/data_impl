@@ -26,8 +26,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87c1dc17-19ba-48fe-93b1-d3ce0ae9c232" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/data_impl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/data_impl.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_impl.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/data_impl.gemspec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/data_impl.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data_impl.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/data_impl/data_helper.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/data_impl_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/data_impl_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_helper.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +42,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="279" />
+    <option name="myElementSize" value="319" />
   </component>
   <component name="ExportToHTMLSettings">
     <option name="OPEN_IN_BROWSER" value="true" />
@@ -72,6 +79,8 @@
     <option name="myCommands">
       <command value="mkdir artifacts" />
       <command value="mv data_impl-0.1.0.gem artifacts" />
+      <command value="cp ../&quot;Template Files&quot;/.yardopts .yardopts" />
+      <command value="rm lib/data_impl/data_helper.rb" />
     </option>
   </component>
   <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.DataTypeTest">
@@ -242,7 +251,7 @@
       <option name="presentableId" value="Default" />
       <updated>1585437259682</updated>
       <workItem from="1585437261730" duration="14212000" />
-      <workItem from="1587821290941" duration="249000" />
+      <workItem from="1587821290941" duration="5737000" />
     </task>
     <task id="LOCAL-00001" summary="Completed Development&#10;&#10;All tests pass.">
       <created>1585501120577</created>
@@ -265,10 +274,17 @@
       <option name="project" value="LOCAL" />
       <updated>1585503559682</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Setup Complete&#10;&#10;Fixed the interface YARDocumentation. Bumped the Minor Version. Formatted the Gem Specification. Updated the Gem Specification's 'email', 'changelog_uri', and dependencies. Fixed the Gem Specification's license.">
+      <created>1587821979036</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1587821979036</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers>
       <YouTrack url="https://macbook-pro.local:8443">
-        <option name="defaultSearch" value="project: Data Subsystem:{ No Subsystem} Component: Implementation Sprints: 4 #{Setup } " />
+        <option name="defaultSearch" value="project: Data Subsystem:{ No Subsystem} Component: Implementation Sprints: 4 #{Development}" />
         <username>admin</username>
       </YouTrack>
     </servers>
@@ -292,7 +308,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Completed Development&#10;&#10;All tests pass." />
     <MESSAGE value="Polishing&#10;&#10;Reformatted files. Documented files." />
-    <option name="LAST_COMMIT_MESSAGE" value="Polishing&#10;&#10;Reformatted files. Documented files." />
+    <MESSAGE value="Setup Complete&#10;&#10;Fixed the interface YARDocumentation. Bumped the Minor Version. Formatted the Gem Specification. Updated the Gem Specification's 'email', 'changelog_uri', and dependencies. Fixed the Gem Specification's license." />
+    <option name="LAST_COMMIT_MESSAGE" value="Setup Complete&#10;&#10;Fixed the interface YARDocumentation. Bumped the Minor Version. Formatted the Gem Specification. Updated the Gem Specification's 'email', 'changelog_uri', and dependencies. Fixed the Gem Specification's license." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -300,26 +317,26 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="443" y="175" key="#Servers/0.23.1680.975@0.23.1680.975" timestamp="1585437354137" />
-    <state x="437" y="112" key="CommitChangelistDialog2" timestamp="1585503559423">
+    <state x="117" y="50" width="1449" height="914" key="CommitChangelistDialog2" timestamp="1587827370916">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="437" y="112" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1585503559423" />
-    <state width="1539" height="270" key="GridCell.Tab.0.bottom" timestamp="1585503894324">
+    <state x="117" y="50" width="1449" height="914" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1587827370915" />
+    <state width="1539" height="270" key="GridCell.Tab.0.bottom" timestamp="1587827201658">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1539" height="270" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1585503894324" />
-    <state width="1539" height="270" key="GridCell.Tab.0.center" timestamp="1585503894324">
+    <state width="1539" height="270" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1587827201658" />
+    <state width="1539" height="270" key="GridCell.Tab.0.center" timestamp="1587827201656">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1539" height="270" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1585503894324" />
-    <state width="1539" height="270" key="GridCell.Tab.0.left" timestamp="1585503894323">
+    <state width="1539" height="270" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1587827201656" />
+    <state width="1539" height="270" key="GridCell.Tab.0.left" timestamp="1587827201656">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1539" height="270" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1585503894323" />
-    <state width="1539" height="270" key="GridCell.Tab.0.right" timestamp="1585503894324">
+    <state width="1539" height="270" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1587827201656" />
+    <state width="1539" height="270" key="GridCell.Tab.0.right" timestamp="1587827201657">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1539" height="270" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1585503894324" />
+    <state width="1539" height="270" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1587827201657" />
     <state x="443" y="250" key="Vcs.Push.Dialog.v2" timestamp="1585503855650">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
@@ -332,14 +349,14 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state width="600" height="424" key="javadoc.popup/0.23.1680.975@0.23.1680.975" timestamp="1585499713909" />
-    <state x="508" y="235" width="670" height="675" key="run.anything.popup" timestamp="1585503827090">
+    <state x="508" y="235" width="670" height="675" key="run.anything.popup" timestamp="1587822778256">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="508" y="235" width="670" height="675" key="run.anything.popup/0.23.1680.975@0.23.1680.975" timestamp="1585503827090" />
-    <state x="508" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1587821713577">
+    <state x="508" y="235" width="670" height="675" key="run.anything.popup/0.23.1680.975@0.23.1680.975" timestamp="1587822778256" />
+    <state x="508" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1587824296557">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="508" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1587821713577" />
+    <state x="508" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1587824296557" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/data_impl@test_inst_b_x1.rcov" NAME="test_inst_b_x1 Coverage Results" MODIFIED="1585493092407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="data_impl" />
@@ -349,7 +366,7 @@
     <SUITE FILE_PATH="coverage/data_impl@test_tc_x2.rcov" NAME="test_tc_x2 Coverage Results" MODIFIED="1585500701699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="data_impl" />
     <SUITE FILE_PATH="coverage/data_impl@test_type_b_x2.rcov" NAME="test_type_b_x2 Coverage Results" MODIFIED="1585500429540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="data_impl" />
     <SUITE FILE_PATH="coverage/data_impl@test_type_b_x1.rcov" NAME="test_type_b_x1 Coverage Results" MODIFIED="1585500425019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="data_impl" />
-    <SUITE FILE_PATH="coverage/data_impl@DataTypeTest.rcov" NAME="DataTypeTest Coverage Results" MODIFIED="1585501161336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="data_impl" />
+    <SUITE FILE_PATH="coverage/data_impl@DataTypeTest.rcov" NAME="DataTypeTest Coverage Results" MODIFIED="1587827185774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="data_impl" />
     <SUITE FILE_PATH="coverage/data_impl@test_tc_x1.rcov" NAME="test_tc_x1 Coverage Results" MODIFIED="1585500697501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="data_impl" />
     <SUITE FILE_PATH="coverage/data_impl@test_version_declared.rcov" NAME="test_version_declared Coverage Results" MODIFIED="1585493085711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="data_impl" />
     <SUITE FILE_PATH="coverage/data_impl@test_te_x1.rcov" NAME="test_te_x1 Coverage Results" MODIFIED="1585500687244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="data_impl" />
