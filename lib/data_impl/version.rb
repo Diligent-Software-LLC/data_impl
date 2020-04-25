@@ -4,8 +4,8 @@
 require 'data_int'
 
 # DataType.
-# @abstract
-#   A Data class implementation. Implements the Data interface.
+# @class_description
+#   A DataType class implementation. Implements the Data interface.
 class DataType < DataInt
-  VERSION = '0.1.0'.freeze()
+  VERSION = '0.2.0'.freeze()
 end

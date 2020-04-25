@@ -2,7 +2,6 @@ PATH
   remote: .
   specs:
     data_impl (0.1.0)
-      data_int (~> 0.1.0)
 
 GEM
   remote: https://rubygems.org/
@@ -22,12 +21,12 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bundler (~> 2.1.2)
+  bundler (~> 2.1)
   data_impl!
-  data_int (~> 0.1.0)
+  data_int (~> 0)
   minitest (~> 5.0)
   rake (~> 13.0)
-  simplecov (~> 0.17.1)
+  simplecov (~> 0)
 
 BUNDLED WITH
    2.1.2
